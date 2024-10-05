@@ -1,0 +1,14 @@
+﻿USE [SANITARIO_OLTP]
+GO
+
+SET IDENTITY_INSERT [dbo].[Estudio] ON
+INSERT INTO [dbo].[Estudio] (
+[Id_Estudio],[Id_Detalle_Visita],[Id_Servicio_Hospital],[Precio],[Fecha_Estudio],[Fecha_Entrega])
+VALUES
+(1,1,14,'150',CAST(N'2024-01-01T10:30:00.000' AS DateTime),CAST(N'2024-01-01T11:30:00.000' AS DateTime)),
+(2,4,14,'150',CAST(N'2024-01-04T08:15:00.000' AS DateTime),CAST(N'2024-01-05T08:15:00.000' AS DateTime)),
+(3,6,26,'100',CAST(N'2024-01-06T16:20:00.000' AS DateTime),CAST(N'2024-01-08T08:20:00.000' AS DateTime)),
+(4,13,44,'150',CAST(N'2024-01-18T10:30:00.000' AS DateTime),CAST(N'2024-01-19T10:00:00.000' AS DateTime)),
+(5,16,60,'150',CAST(N'2024-01-23T09:00:00.000' AS DateTime),CAST(N'2024-01-23T11:00:00.000' AS DateTime));
+
+SET IDENTITY_INSERT [dbo].[Estudio] OFF

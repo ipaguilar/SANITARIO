@@ -1,0 +1,44 @@
+﻿DELETE FROM Paciente;
+GO
+DBCC CHECKIDENT ('Paciente', RESEED);
+GO
+DELETE FROM Medico;
+GO
+DBCC CHECKIDENT ('Medico', RESEED);
+GO
+DELETE FROM Servicio;
+GO
+DBCC CHECKIDENT ('Servicio', RESEED);
+GO
+DELETE FROM Hospital;
+GO
+DBCC CHECKIDENT ('Hospital', RESEED);
+GO
+DELETE FROM Habitacion;
+GO
+DBCC CHECKIDENT ('Habitacion', RESEED);
+GO
+DELETE FROM Servicio_Hospital;
+GO
+DBCC CHECKIDENT ('Servicio_Hospital', RESEED);
+GO
+DELETE FROM Cama;
+GO
+DBCC CHECKIDENT ('Cama', RESEED);
+GO
+DELETE FROM Visita;
+GO
+DBCC CHECKIDENT ('Visita', RESEED);
+GO
+DELETE FROM Medico_Hospital_Servicio;
+GO
+DBCC CHECKIDENT ('Medico_Hospital_Servicio', RESEED);
+GO
+DELETE FROM Detalle_Visita;
+GO
+DBCC CHECKIDENT ('Detalle_Visita', RESEED);
+GO
+DELETE FROM Estudio;
+GO
+DBCC CHECKIDENT ('Estudio', RESEED);
+GO

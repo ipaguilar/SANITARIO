@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SANITARIO_OLTP", "SANITARIO\SANITARIO_OLTP.sqlproj", "{F7D657FA-2138-42D4-B90C-122BA8F907CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D657FA-2138-42D4-B90C-122BA8F907CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D657FA-2138-42D4-B90C-122BA8F907CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D657FA-2138-42D4-B90C-122BA8F907CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F7D657FA-2138-42D4-B90C-122BA8F907CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D657FA-2138-42D4-B90C-122BA8F907CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D657FA-2138-42D4-B90C-122BA8F907CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED53FFEA-3C11-43B3-8F90-74FD755155C5}
+	EndGlobalSection
+EndGlobal
