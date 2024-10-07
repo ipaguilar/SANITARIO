@@ -58,14 +58,36 @@
     <Folder Include="Properties" />
     <Folder Include="Schema" />
     <Folder Include="Schema\Tables" />
+    <Folder Include="Schema\Tables\dbo" />
+    <Folder Include="Schema\Tables\staging" />
+    <Folder Include="Schema\Security" />
+    <Folder Include="Schema\Security\schemas" />
+    <Folder Include="Schema\Programmability" />
+    <Folder Include="Schema\Programmability\Stored Procedures" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Schema\Tables\DimTiempo.sql" />
-    <Build Include="Schema\Tables\DimPaciente.sql" />
-    <Build Include="Schema\Tables\DimMedico.sql" />
-    <Build Include="Schema\Tables\DimHospital.sql" />
-    <Build Include="Schema\Tables\FacVisita.sql" />
-    <Build Include="Schema\Tables\FacInternacion.sql" />
-    <Build Include="Schema\Tables\FacEstudio.sql" />
+    <Build Include="Schema\Tables\dbo\DimHospital.sql" />
+    <Build Include="Schema\Tables\dbo\DimMedico.sql" />
+    <Build Include="Schema\Tables\dbo\DimPaciente.sql" />
+    <Build Include="Schema\Tables\dbo\DimTiempo.sql" />
+    <None Include="Schema\Tables\staging\StagingMedico.sql" />
+    <Build Include="Schema\Tables\dbo\PackageConfig.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Tables\dbo\FacEstudio.sql" />
+    <Build Include="Schema\Tables\dbo\FacInternacion.sql" />
+    <Build Include="Schema\Tables\dbo\FacVisita.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Schema\Programmability\Stored Procedures\DW_MergeDimMedico.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\UpdateLastPackageRowVersion.sql" />
+    <None Include="Scripts\PackageConfig.data.sql" />
+    <None Include="Scripts\DimFecha.data.sql" />
+    <None Include="Scripts\PatchDimFecha.data.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
