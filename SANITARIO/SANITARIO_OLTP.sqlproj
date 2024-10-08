@@ -84,8 +84,8 @@
     <None Include="Scripts\PobladoDatos_Visita202401.sql" />
     <None Include="Scripts\PobladoDatos_DetVisita202401.sql" />
     <None Include="Scripts\PobladoDatos_Estudios202401.sql" />
-    <None Include="Schema\Programmability\Stored Procedures\GetDatabaseRowVersion.sql" />
-    <None Include="Schema\Programmability\Stored Procedures\GetMedicoChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetDatabaseRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetMedicoChangesByRowVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />

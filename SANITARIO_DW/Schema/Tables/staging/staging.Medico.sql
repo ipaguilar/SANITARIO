@@ -4,5 +4,5 @@
 	[Nombre] [varchar](50) NOT NULL,
 	[Apellidos] [varchar](50) NOT NULL,
 	[FechaNacimiento] [datetime] NOT NULL
-) ON [PRIMARY]
+);
 GO
