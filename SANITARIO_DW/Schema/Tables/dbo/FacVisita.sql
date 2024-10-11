@@ -10,7 +10,6 @@
     [Id_Visita_inicial] INT NOT NULL,
 	[Diagnostico] FLOAT NULL,
 	[datos_adicionales] FLOAT NULL,
-    [RowVersion] INT NOT NULL,
     CONSTRAINT [PK_Visita_FacVisita] PRIMARY KEY CLUSTERED ([Id_FacVisita] ASC),
     CONSTRAINT [FK_Visita_Paciente] FOREIGN KEY ([Id_Paciente]) REFERENCES [dbo].[DimPaciente] ([Id_Paciente]),
 	CONSTRAINT [FK_Visita_Hospital] FOREIGN KEY ([Id_Hospital]) REFERENCES [dbo].[DimHospital] ([Id_DimHospital]),
